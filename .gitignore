@@ -1,0 +1,28 @@
+# Node
+node_modules/
+npm-debug.log*
+pnpm-lock.yaml
+yarn.lock
+
+# Build outputs
+interactive-portfolio/dist/
+server/.api.pid
+server/dev.log
+
+# Python
+.venv/
+__pycache__/
+
+# Backups and archives
+backups/
+interactive-portfolio_backup_*/
+server_backup_*/
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
+
+# Env files (do not commit secrets)
+.env
+.env.*
