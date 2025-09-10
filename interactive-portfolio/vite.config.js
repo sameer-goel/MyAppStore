@@ -4,6 +4,8 @@ import tailwind from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  // Base path for GitHub Pages under /MyAppStore/
+  base: '/MyAppStore/',
   plugins: [react(), tailwind()],
   server: {
     proxy: {
