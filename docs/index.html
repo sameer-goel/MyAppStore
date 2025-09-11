@@ -1,16 +1,94 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/MyAppStore/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Allow same-origin styles/scripts on GitHub Pages; keep inline styles allowed for animations -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self'; img-src 'self' data:; font-src 'self' data:; connect-src 'self'" />
-    <title>Vite + React</title>
-    <script type="module" crossorigin src="/MyAppStore/assets/index-D2AIGThr.js"></script>
-    <link rel="stylesheet" crossorigin href="/MyAppStore/assets/index-Cuo9yvKw.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI Apps Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='46' fill='%2355F' /></svg>">
+    <script src="https://code.iconify.design/3/3.1.1/iconify.min.js" defer></script>
   </head>
   <body>
-    <div id="root"></div>
+    <div class="bg">
+      <div class="glow glow-a"></div>
+      <div class="glow glow-b"></div>
+      <div class="grid"></div>
+    </div>
+
+    <header class="hero">
+      <h1>AI Apps Portfolio.</h1>
+      <p>Utilize apps for free.</p>
+    </header>
+
+    <main class="container">
+      <!-- Inner Intelligence rows -->
+      <section class="cat-block">
+        <h3 class="subhead">Body</h3>
+        <div class="row">
+          <a class="card" href="#">
+            <div class="icon"><span class="iconify" data-icon="token-branded:btc" data-width="28" data-height="28"></span></div>
+            <div class="meta">
+              <div class="title">Health Insights</div>
+              <div class="pill gray">Coming soon</div>
+            </div>
+          </a>
+          <a class="card" href="#"><div class="icon"><span class="iconify" data-icon="token-branded:eth"></span></div><div class="meta"><div class="title">Movement Analytics</div><div class="pill gray">Coming soon</div></div></a>
+          <a class="card" href="#"><div class="icon"><span class="iconify" data-icon="token-branded:sol"></span></div><div class="meta"><div class="title">Wellness Monitor</div><div class="pill gray">Coming soon</div></div></a>
+        </div>
+      </section>
+
+      <section class="cat-block">
+        <h3 class="subhead">Mind</h3>
+        <div class="row">
+          <a class="card" href="#"><div class="icon"><span class="iconify" data-icon="token-branded:btc"></span></div><div class="meta"><div class="title">Meditation Timer</div><div class="pill gray">Coming soon</div></div></a>
+          <a class="card" href="https://sameerai.com/04mind/BinuralBeatsApp.html" target="_blank" rel="noreferrer"><div class="icon"><span class="iconify" data-icon="token-branded:eth"></span></div><div class="meta"><div class="title">Binural Beats</div><div class="pill green">Open</div></div></a>
+          <a class="card" href="#"><div class="icon"><span class="iconify" data-icon="token-branded:sol"></span></div><div class="meta"><div class="title">Focus Enhancer</div><div class="pill gray">Coming soon</div></div></a>
+        </div>
+      </section>
+
+      <section class="cat-block">
+        <h3 class="subhead">Soul</h3>
+        <div class="row">
+          <a class="card" href="#"><div class="icon"><span class="iconify" data-icon="token-branded:btc"></span></div><div class="meta"><div class="title">New Soul App</div><div class="pill gray">Coming soon</div></div></a>
+          <a class="card" href="#"><div class="icon"><span class="iconify" data-icon="token-branded:eth"></span></div><div class="meta"><div class="title">Purpose Discovery</div><div class="pill gray">Coming soon</div></div></a>
+          <a class="card" href="#"><div class="icon"><span class="iconify" data-icon="token-branded:sol"></span></div><div class="meta"><div class="title">Spiritual Growth</div><div class="pill gray">Coming soon</div></div></a>
+        </div>
+      </section>
+
+      <!-- Artificial Intelligence rows -->
+      <section class="cat-block">
+        <h3 class="subhead">Education</h3>
+        <div class="row">
+          <a class="card" href="#"><div class="icon"><span class="iconify" data-icon="token-branded:sol"></span></div><div class="meta"><div class="title">AI Tutor</div><div class="pill gray">Coming soon</div></div></a>
+          <a class="card" href="#"><div class="icon"><span class="iconify" data-icon="token-branded:btc"></span></div><div class="meta"><div class="title">Learning Analytics</div><div class="pill gray">Coming soon</div></div></a>
+          <a class="card" href="#"><div class="icon"><span class="iconify" data-icon="token-branded:eth"></span></div><div class="meta"><div class="title">Skill Assessment</div><div class="pill gray">Coming soon</div></div></a>
+        </div>
+      </section>
+
+      <section class="cat-block">
+        <h3 class="subhead">Healthcare</h3>
+        <div class="row">
+          <a class="card" href="#"><div class="icon"><span class="iconify" data-icon="token-branded:btc"></span></div><div class="meta"><div class="title">Symptom Analyzer</div><div class="pill gray">Coming soon</div></div></a>
+          <a class="card" href="#"><div class="icon"><span class="iconify" data-icon="token-branded:eth"></span></div><div class="meta"><div class="title">Mental Health AI</div><div class="pill gray">Coming soon</div></div></a>
+          <a class="card" href="#"><div class="icon"><span class="iconify" data-icon="token-branded:sol"></span></div><div class="meta"><div class="title">Medical Imaging</div><div class="pill gray">Coming soon</div></div></a>
+        </div>
+      </section>
+
+      <section class="cat-block">
+        <h3 class="subhead">Energy</h3>
+        <div class="row">
+          <a class="card" href="#"><div class="icon"><span class="iconify" data-icon="token-branded:eth"></span></div><div class="meta"><div class="title">Smart Grid</div><div class="pill gray">Coming soon</div></div></a>
+          <a class="card" href="#"><div class="icon"><span class="iconify" data-icon="token-branded:btc"></span></div><div class="meta"><div class="title">Carbon Tracker</div><div class="pill gray">Coming soon</div></div></a>
+          <a class="card" href="#"><div class="icon"><span class="iconify" data-icon="token-branded:sol"></span></div><div class="meta"><div class="title">Renewable Optimizer</div><div class="pill gray">Coming soon</div></div></a>
+        </div>
+      </section>
+
+      <footer class="footer">© <span id="yr"></span> AI Apps Portfolio</footer>
+    </main>
+
+    <script>
+      document.getElementById('yr').textContent = new Date().getFullYear()
+    </script>
   </body>
-</html>
+  </html>
+
